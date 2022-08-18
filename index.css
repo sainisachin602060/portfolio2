@@ -1,0 +1,284 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(30, 30, 59);
+}
+
+.topnav {
+    background: rgb(8, 8, 8);
+    text-align: center;
+}
+
+.topnav ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.topnav ul li {
+    width: 100px;
+    padding: 15px;
+}
+
+.topnav ul li a {
+    text-decoration: none;
+    color: beige;
+}
+
+.topnav ul li:hover {
+    background-color: rgb(4, 4, 249);
+}
+
+.active,
+.topnav ul li:hover {
+    background-color: blue;
+}
+
+
+/*Navigation Work Complete*/
+
+.heading2 {
+    padding-left: 50px;
+    padding-top: 70px;
+    color: coral;
+    font-size: lx-arge;
+}
+
+.heading1 {
+    padding-left: 30px;
+    padding-top: 50px;
+    font-size: 60px;
+    color: rgb(252, 250, 251);
+    font-weight: 400;
+}
+
+span {
+    color: grey
+}
+
+.image {
+    width: 300px;
+    padding-bottom: 40px;
+    height: 280px;
+    float: right;
+    background-color: rgb(234, 231, 223);
+    border-radius: 8px;
+}
+
+.paragraph {
+    padding-left: 30px;
+    color: rgb(250, 251, 255);
+}
+
+.bt {
+    margin: 20px;
+    background: rgb(249, 246, 245);
+    color: rgb(244, 4, 4);
+    border: 2px solid rgb(249, 244, 244);
+    border-radius: 4px;
+    font-size: x-large;
+}
+
+.bt2 {
+    margin: 20px;
+    background: rgb(249, 246, 245);
+    color: rgb(244, 4, 4);
+    border: 2px solid rgb(249, 244, 244);
+    border-radius: 4px;
+    font-size: x-large;
+}
+
+.fa-code {
+    padding-left: 70px;
+    color: white;
+}
+
+#second {
+    padding-left: 50px;
+}
+
+.fdiv {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 40px;
+}
+
+#bd2 {
+    border: 2px solid rgb(28, 10, 45);
+    background: rgb(28, 10, 45);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 8px;
+}
+
+#bd1 {
+    border: 2px solid rgb(28, 10, 45);
+    background: rgb(28, 10, 45);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 8px;
+}
+
+#bd3 {
+    border: 2px solid rgb(28, 10, 45);
+    background: rgb(28, 10, 45);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 8px;
+}
+
+#head1 {
+    padding-left: 36px;
+    color: rgb(0, 231, 252);
+}
+
+#vs1 {
+    font-size: xx-large;
+    color: grey;
+    padding-left: 460px;
+}
+
+#mssion {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    border: 2px solid rgb(29, 24, 33);
+    background-color: rgb(29, 24, 33);
+    color: rgb(8, 255, 24);
+    margin-left: 340px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.vs2 {
+    font-size: xx-large;
+    color: grey;
+    padding-left: 400px;
+    border-radius: 8px;
+}
+
+#mission {
+    width: 250px;
+    height: 265px;
+    display: grid;
+    border: 2px solid rgb(29, 24, 33);
+    background-color: rgb(71, 71, 108);
+    color: rgb(255, 250, 251);
+    margin-left: 320px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.foot {
+    display: inline-flex;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 60px;
+    margin: 10px;
+}
+
+.foot a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#cs {
+    color: white;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+#copy {
+    text-align: center;
+    color: rgb(0, 255, 255);
+    padding: 30px;
+}
+
+#skil {
+    text-align: center;
+    color: grey;
+    font-size: large;
+}
+
+.skill {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 30px;
+}
+
+#file {
+    color: chocolate;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.skill p {
+    font-size: 10px;
+    color: rgb(174, 0, 255);
+}
+
+#skile {
+    color: crimson;
+}
+
+#know-head {
+    text-align: center;
+    color: rgb(252, 114, 64);
+    font-size: x-large;
+    font-weight: 500;
+}
+
+
+/*SECOND PAGE OF PROJECT*/
+
+#head1 {
+    text-align: center;
+    padding: 50px;
+    font-size: xx-large;
+}
+
+#scond {
+    text-align: center;
+    font-size: 30px;
+    color: darkgray;
+}
+
+#details {
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 400;
+    color: chartreuse;
+}
+
+#un {
+    color: chocolate;
+    text-align: center;
+    font-size: 35px;
+}
+
+.fa-arrow-right {
+    padding-left: 390px;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+#Certificate {
+    text-align: center;
+    color: rgb(250, 109, 57);
+}
+
+#course {
+    text-align: center;
+    font-size: x-large;
+    color: aqua;
+    background-color: black;
+    width: 300px;
+    height: 80px;
+    padding: 10px;
+}
